@@ -1,0 +1,13 @@
+.bar.bar-squeed {
+  border-color: #e6b400;
+  background-color: black;
+  background-image: linear-gradient(0deg, #e6b400, #e6b400 50%, transparent 50%);
+  color: #fff;
+}
+.bar.bar-squeed .title {
+  color: #EAA42F;
+}
+
+.squeed-orange {
+  color: #EAA42F !important
+}
