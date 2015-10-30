@@ -1,11 +1,11 @@
 <ion-view view-title="Squeeders">
   <ion-content>
     <ion-list>
-      <ion-item href="{{squeeder.profile}}" ng-repeat="squeeder in squeeders | orderBy:'name'" class="item-thumbnail-left" type="item-text-wrap">
-      <img ng-src="{{squeeder.img}}">
-      <h2>{{squeeder.name}}</h2>
-      <p>{{squeeder.desc}}</p>
-    </ion-item>
-  </ion-list>
-</ion-content>
+      <ion-item href="{{squeeder.profile}}" ng-repeat="squeeder in squeeders | orderBy:'name'" class="item-thumbnail-left item-text-wrap">
+        <img ng-src="{{squeeder.img}}">
+        <h2>{{squeeder.name}}</h2>
+        <p>{{squeeder.desc}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
 </ion-view>

@@ -1,7 +1,7 @@
-# squeeders_sample
+# squeeders_meteor_ionic_sample
 
 # To run
 
-cd squeeders_sample
+cd squeeders_meteor_ionic_sample
 
 meteor
